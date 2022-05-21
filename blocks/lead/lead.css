@@ -71,7 +71,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   .header {
     padding-left: 16px;
     padding-right: 16px;
@@ -83,7 +83,13 @@
     font-size: 40px;
     line-height: 44px;
   }
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 16px;
+  }
   .lead__photo {
+    padding-top: 40px;
 
   }
   .lead__photo-subtitle {
