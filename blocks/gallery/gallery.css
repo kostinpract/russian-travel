@@ -1,0 +1,12 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1184px;
+  padding: 92px 48px 0px 48px;
+}
+
+.gallery__item {
+  width: 100%;
+  object-fit: cover;
+}

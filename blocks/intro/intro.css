@@ -1,0 +1,35 @@
+.intro {
+  color: #fff;
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 92px 48px 0px 48px;
+}
+
+.intro__title {
+  margin: 0;
+  font-size: 54px;
+  line-height: 58px;
+  font-weight: 900;
+}
+
+.intro__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 163%;
+  padding-top: 40px;
+  max-width: 690px;
+}
+
+.intro__facts {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 33px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.intro__fact-num {
+  font-weight: normal;
+}
