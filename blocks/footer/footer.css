@@ -1,0 +1,14 @@
+.footer {
+  color: #fff;
+  max-width: 1184px;
+  margin: 92px 48px 24px 48px;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 16px;
+}
