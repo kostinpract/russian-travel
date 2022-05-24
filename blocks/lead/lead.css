@@ -33,7 +33,7 @@
 }
 
 .lead__photo-subtitle {
-  width: 100%;
+
   margin: 0;
   padding-top: 8px;
   letter-spacing: 1.5px;
@@ -71,7 +71,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
   .header {
     padding-left: 16px;
     padding-right: 16px;
@@ -90,7 +90,6 @@
   }
   .lead__photo {
     padding-top: 40px;
-
   }
   .lead__photo-subtitle {
     padding-left: 16px;

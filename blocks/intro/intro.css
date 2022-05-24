@@ -34,3 +34,19 @@
 .intro__fact_num {
   font-weight: normal;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 88px 24px 0px 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro {
+    padding: 64px 16px 0px 16px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
