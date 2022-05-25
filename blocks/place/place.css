@@ -37,7 +37,7 @@
   line-height: 22px;
   padding-top: 10px;
   letter-spacing: 0;
-  text-underline-offset: 2px;
+  text-underline-offset: 4px;
 }
 
 .place__image {
@@ -79,13 +79,10 @@
     font-size: 42px;
     line-height: 46px;
     max-height: 84px;
-  }
-  .place__url {
-    padding-top: 12px;
+    max-width: 330px;
   }
   .place__desc {
     font-size: 16px;
-    line-height: 1.635;
   }
   .place__par {
     padding-top: 25px;
@@ -109,11 +106,20 @@
     "image"
     "desc";
   }
+  .place__url {
+    text-underline-offset: 4px;
+  }
   .place__header {
+    padding: 0 16px 0 16px;
     font-size: 32px;
     line-height: 35px;
   }
+  .place__link {
+    padding: 0 16px 0 16px;
+  }
   .place__desc {
+    padding: 0 16px 0 16px;
     font-size: 16px;
   }
+
 }
