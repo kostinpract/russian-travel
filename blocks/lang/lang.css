@@ -1,24 +1,24 @@
-.lang {
+.header__lang {
   display: flex;
   column-gap: 18px;
   align-items: flex-end;
   padding-bottom: 5px;
 }
 
-.lang__item {
+.header__lang-item {
   font-size: 24px;
   line-height: 28px;
   color: #fff;
   text-decoration: none;
 }
 
-.lang__item_active {
+.header__lang-item_active {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
 @media screen and (max-width: 720px) {
-  .lang__item {
+  .header__lang-item {
     font-size: 18px;
     line-height: 20px;
   }

@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 
-/* my custom css styles for pixelperfect debugging */
-/* @import url(../vendor/pixelperfect/pixelperfect.css); */
+@import url(../vendor/fonts.css);
 
 @import url(../blocks/body/body.css);
 

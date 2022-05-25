@@ -4,6 +4,7 @@
   min-height: 740px;
   margin: 92px 48px 0px 48px;
   background-image: url(../../images/big-trains.jpg);
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -14,7 +15,12 @@
   overflow: hidden;
 }
 
-.cover:before {
+.cover__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover__link:before {
   background-color: #2a2c2f;
   content: '';
   display: block;
@@ -28,7 +34,7 @@
   transition: opacity 100ms ease-in-out;
 }
 
-.cover:hover:before{
+.cover__link:hover:before{
   opacity: 0.8;
 }
 
@@ -42,17 +48,12 @@
 }
 
 .cover__subtitle {
-  margin: 0;
+  margin: 0 auto;
   max-width: 360px;
   text-align: center;
   font-size: 18px;
   line-height: 22px;
   padding-top: 32px;
-}
-
-.cover__link {
-  color: #fff;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 1024px) {
