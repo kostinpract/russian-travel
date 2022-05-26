@@ -7,12 +7,6 @@
   gap: 18px;
 }
 
-.footer__links-item {
-  color: #fff;
-  text-decoration: none;
-  display: flex;
-}
-
 @media screen and (max-width: 767px) {
   .footer__links {
     font-size: 24px;

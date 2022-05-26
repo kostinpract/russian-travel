@@ -5,36 +5,6 @@
   color: #fff;
 }
 
-.intro__title {
-  margin: 0;
-  max-width: 690px;
-  font-size: 54px;
-  line-height: 58px;
-  font-weight: 900;
-}
-
-.intro__text {
-  margin: 0;
-  max-width: 690px;
-  padding-top: 40px;
-  font-size: 16px;
-  line-height: 163%;
-}
-
-.intro__facts {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-  padding-top: 33px;
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: 700;
-}
-
-.intro__fact-num {
-  font-weight: normal;
-}
-
 @media screen and (max-width: 768px) {
   .intro {
     padding: 88px 24px 0px 24px;
@@ -44,9 +14,5 @@
 @media screen and (max-width: 720px) {
   .intro {
     padding: 64px 16px 0px 16px;
-  }
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
   }
 }

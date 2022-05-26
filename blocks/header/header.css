@@ -5,7 +5,21 @@
   padding: 28px 48px 0px 48px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .header {
     padding-top: 16px;
   }

@@ -1,0 +1,25 @@
+.lead__photo {
+  display: block;
+  line-height: 0;
+  width: 100%;
+  padding-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__photo {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__photo {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .lead__photo {
+    padding-top: 40px;
+  }
+}

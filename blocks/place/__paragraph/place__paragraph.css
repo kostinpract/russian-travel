@@ -1,0 +1,14 @@
+.place__paragraph {
+  margin: 0;
+  padding-top: 26px;
+}
+
+.place__paragraph:first-child {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    padding-top: 25px;
+  }
+}

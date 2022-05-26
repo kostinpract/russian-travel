@@ -1,0 +1,9 @@
+.intro__facts {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 33px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}

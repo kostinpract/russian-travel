@@ -1,0 +1,18 @@
+.place__info {
+  grid-area: desc;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__info {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .place__info {
+    padding: 0 16px 0 16px;
+    font-size: 16px;
+  }
+}
