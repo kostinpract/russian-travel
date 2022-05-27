@@ -5,10 +5,16 @@
   line-height: 22px;
   padding-top: 10px;
   letter-spacing: 0;
-  text-underline-offset: 4px;
+  text-underline-offset: 2px;
   transition: opacity 100ms ease-in-out;
 }
 
 .place__url:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 540px) {
+  .place__url {
+    padding: 10px 16px 0 16px;
+  }
 }

@@ -1,15 +1,16 @@
-.place__link {
-  grid-area: link;
+.place__link-text {
+  margin: 0;
+  grid-area: link-text;
   align-self: end;
   color: #aaa;
-  margin: 0;
   font-size: 12px;
   line-height: 12px;
+  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 @media screen and (max-width: 540px) {
-  .place__link {
-    padding: 0 16px 0 16px;
+  .place__link-text {
+    padding: 20px 16px 0 16px;
   }
 }

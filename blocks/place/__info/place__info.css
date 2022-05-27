@@ -2,6 +2,7 @@
   grid-area: desc;
   font-size: 18px;
   line-height: 1.63;
+  padding-top: 48px;
 }
 
 @media screen and (max-width: 1023px) {

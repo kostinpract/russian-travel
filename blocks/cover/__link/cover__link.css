@@ -1,6 +1,11 @@
 .cover__link {
   color: #fff;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px
 }
 
 .cover__link:before {
@@ -17,6 +22,12 @@
   transition: opacity 100ms ease-in-out;
 }
 
-.cover__link:hover:before{
+.cover__link:hover:before {
   opacity: .8;
+}
+
+@media screen and (max-width: 540px) {
+  .cover__link {
+    gap: 16px
+  }
 }
